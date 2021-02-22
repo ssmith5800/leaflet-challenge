@@ -22,7 +22,7 @@ var map = L.map("mapid", {
 
 graymap.addTo(map);
 
-// AJAX call that retrieves our earthquake geoJSON data.
+// AJAX call that retrieves earthquake geoJSON data
 d3.json("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson", function(data) {
 
   // style data for each of the earthquakes 
